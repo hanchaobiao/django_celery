@@ -133,8 +133,8 @@ from .celeryconfig import *
 BROKER_BACKEND = 'redis'
 
 # broker设置中间件，backend设置后端存储
-BROKER_URL = 'redis://120.78.136.198:6379/1'
+BROKER_URL = 'redis://host:6379/1'
 
-CELERY_RESULT_BACKEND = 'redis://120.78.136.198:6379/2'
+CELERY_RESULT_BACKEND = 'redis://host:6379/2'
 
 
