@@ -6,9 +6,13 @@
 # @Desc  : celery配置文件
 from datetime import timedelta
 import djcelery
+from celery import platforms
 
 
 djcelery.setup_loader()
+
+
+platforms.C_FORCE_ROOT = True  # 达P蠾L以root潔¨彈·达P蠾L
 
 
 CELERY_QUEUES = {
