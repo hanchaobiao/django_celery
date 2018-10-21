@@ -1,0 +1,4 @@
+# django_celery
+本项目是学习celery的使用以及django中使用celery,最终用supervisor进程管理工具启动celery的worker beat flower进程
+需安装的依赖包为django-celery
+项目使用docker发布（可以将启动命令直接写到supervisord-app.conf,docker容器启动时自动启动，本文为了学习，单独新建配置文件启动）
