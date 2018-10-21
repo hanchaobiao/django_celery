@@ -9,10 +9,10 @@ from celery.schedules import crontab
 
 
 # broker设置中间件，backend设置后端存储
-BROKER_URL = 'redis://120.78.136.198:6379/1'
+BROKER_URL = 'redis://host:6379/1'
 
 
-BACKEND_URL = 'redis://120.78.136.198:6379/2'
+BACKEND_URL = 'redis://host:6379/2'
 
 CELERY_TIMEZONE = 'Asia/Shanghai'  # 时间格式，默认UTC
 
